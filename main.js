@@ -13,7 +13,7 @@ function setup() {
 canvas=createCanvas(600, 500);
 canvas.center();
 
-video = cerateCapture(VIDEO);
+video = createCapture(VIDEO);
 video.hide();
 
     poseNet = ml5.poseNet(video, modelLoaded);
@@ -47,7 +47,7 @@ function draw() {
 }
 
 function Play() {
-    song.Play();
+    song.play();
     song.setVolume(1);
     song.rate(1)
 }
