@@ -36,7 +36,7 @@ function gotPoses(results) {
 function draw() {
     image(video, 0, 0, 600, 500);
     fill("#30D5C8");
-    storke("#30D5C8");
+    stroke("#30D5C8");
 
     circle(leftWristX,leftWristY,20);
     NumberleftWristY = Number(leftWristY);
